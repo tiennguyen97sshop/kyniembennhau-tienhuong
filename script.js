@@ -31,10 +31,10 @@ const maxImages = 100; // Bạn có thể chỉnh tùy ý, ví dụ 200 nếu c�
 
 for (let i = 1; i <= maxImages; i++) {
   const img = document.createElement('img');
-  img.src = `images/${i}.jpg`;
+  img.src = `images/anh${i}.jpg`;   // 👈 chỉ sửa ở đây
   img.alt = `Kỷ niệm ${i}`;
-  img.loading = "lazy"; // Tối ưu tải ảnh chậm khi cuộn
-  img.onerror = () => img.remove(); // Ẩn ảnh nếu không tồn tại
+  img.loading = "lazy";
+  img.onerror = () => img.remove();  // ẩn ảnh nếu không tồn tại
   gallery.appendChild(img);
 }
 
