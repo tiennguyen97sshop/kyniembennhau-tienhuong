@@ -3,58 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kỷ Niệm 1 Năm Bên Nhau 💖</title>
+  <title>1 Năm Bên Nhau 💖</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-  <h1>💞 Tiến & Hường 💞</h1>
-  <p>Hành trình yêu thương 1 năm đáng nhớ</p>
-</header>
-
-<section>
-  <h2>⏳ Thời Gian Bên Nhau</h2>
-  <div id="timer"></div>
-</section>
-
-<section>
-  <h2>📸 Album Ảnh</h2>
   <div class="container">
-    <div id="gallery" class="gallery"></div>
+    <h1>Hành Trình Yêu 💕</h1>
+    <p id="date-info"></p>
+
+    <section class="message">
+      <h2>Thông Điệp 💌</h2>
+      <p class="love-message">
+        Từ ngày 18 tháng 9 — ngày đầu tiên anh và em quen nhau,<br>
+        đến ngày 22 tháng 11 — ngày em đồng ý làm người yêu anh,<br>
+        mọi thứ như một hành trình đẹp nhất mà anh từng có.<br><br>
+        Một năm trôi qua, chúng mình đã cùng nhau đi qua nhiều điều — vui có, buồn có, nhưng trên hết là yêu thương.<br><br>
+        Cảm ơn em, Hường, vì đã ở bên anh, vì đã chọn anh giữa hàng vạn người ngoài kia.<br><br>
+        Anh không biết tương lai sẽ ra sao, chỉ mong những tháng năm sau này,<br>
+        anh vẫn được cùng em nắm tay đi qua từng mùa như thế.<br><br>
+        <strong>– Tiến ❤️ Hường –</strong><br>
+        <em>22/11/2025</em>
+      </p>
+    </section>
+
+    <section class="album">
+      <h2>Album Kỷ Niệm 📸</h2>
+      <div id="gallery" class="gallery"></div>
+      <p id="no-images" class="empty-msg" style="display:none;">📷 Chưa có kỷ niệm bằng hình ảnh nào.</p>
+    </section>
+
+    <section class="videos">
+      <h2>Khoảnh Khắc Video 🎥</h2>
+      <div id="videoGallery" class="video-gallery"></div>
+      <p id="no-videos" class="empty-msg" style="display:none;">🎬 Chưa có kỷ niệm bằng video nào.</p>
+    </section>
+
+    <footer>
+      <p>💖 Kỷ niệm 1 năm bên nhau 💖</p>
+    </footer>
   </div>
-</section>
 
-<section>
-  <h2>💌 Thông Điệp Dành Riêng Cho Em</h2>
-  <div class="message">
-Từ ngày 18 tháng 9 — ngày đầu tiên anh và em quen nhau,  
-đến ngày 22 tháng 11 — ngày em đồng ý làm người yêu anh,  
-mọi thứ như một hành trình đẹp nhất mà anh từng có.  
-
-Một năm trôi qua, chúng mình đã cùng nhau đi qua nhiều điều — vui có, buồn có, nhưng trên hết là yêu thương.  
-
-Cảm ơn em, Hường, vì đã ở bên anh, vì đã chọn anh giữa hàng vạn người ngoài kia.  
-
-Anh không biết tương lai sẽ ra sao, chỉ mong những tháng năm sau này,  
-anh vẫn được cùng em nắm tay đi qua từng mùa như thế.  
-
-– Tiến ❤️ Hường –
-  </div>
-  <div class="message-date">💖 22/11/2025 💖</div>
-</section>
-
-<footer>
-  <p>© 2025 Tiến & Hường – Website kỷ niệm 1 năm bên nhau 💞</p>
-</footer>
-
-<!-- Lightbox hiển thị ảnh -->
-<div id="lightbox" class="lightbox">
-  <span class="close">&times;</span>
-  <img id="lightbox-img" class="lightbox-content" alt="">
-  <div id="caption"></div>
-</div>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
